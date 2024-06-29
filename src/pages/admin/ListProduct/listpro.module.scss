@@ -1,0 +1,23 @@
+.table_header {
+    text-align: center;
+    th {
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    img {
+        width: 200px;
+        max-width: 100%;
+        border-radius: 10px;
+        height: 100px;
+        max-height: 100%;
+    }
+}
+.addpro {
+    color: white;
+    text-decoration: none;
+    display: block;
+    &:hover {
+        color: rgb(255, 0, 0);
+    }
+}
