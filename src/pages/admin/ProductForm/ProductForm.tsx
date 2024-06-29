@@ -36,9 +36,9 @@ const ProductForm = () => {
   const uploadImage = async (file: any) => {
     const formData = new FormData();
     formData.append("file", file);
-    formData.append("upload_preset", "test_api");
+    formData.append("upload_preset", "react_123");
     const response = await fetch(
-      `https://api.cloudinary.com/v1_1/drz5kdrm5/image/upload`,
+      `https://api.cloudinary.com/v1_1/dun94cy15/image/upload`,
       {
         method: "POST",
         body: formData,

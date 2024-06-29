@@ -10,6 +10,7 @@ import ProductForm from "./pages/admin/ProductForm/ProductForm";
 import Notfound from "./pages/Notfound";
 import PrivateRouter from "./components/PrivateRouter";
 import ListProduct from "./pages/admin/ListProduct/ListProducts";
+import DetailProduct from "./pages/Auth/DetailProduct";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<LayoutWebsite />}>
             <Route index element={<Home />} />
             <Route path="home" element={<Navigate to="/" />} />
+              <Route path="product-detail/:id" element={<DetailProduct />} />
           </Route>
           <Route path="/admin" element={<PrivateRouter />}>
             <Route path="/admin" element={<LayoutAdmin />}>

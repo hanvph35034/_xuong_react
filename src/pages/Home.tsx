@@ -1,5 +1,6 @@
 import { useContext, useEffect } from "react";
 import { ProductContext } from "../contexts/ProductProvider";
+import { Link } from "react-router-dom";
 
 function Home() {
 	const { products, dispathProducts } = useContext(ProductContext);
@@ -28,7 +29,7 @@ function Home() {
 					</div>
 				</div>
 				<div className="p-4">
-					<h3 className="text-lg font-medium mb-2">{product.title}</h3>
+					<h3 className="text-lg font-medium mb-2"> <Link to={`product-detail/${product.id}`}>{product.title}</Link></h3>
 					<p className="text-gray-600 text-sm mb-4">{product.description}</p>
 					<div className="flex items-center justify-between">
 						<span className="font-bold text-lg">${product.price}</span>
