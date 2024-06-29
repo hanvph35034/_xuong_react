@@ -1,29 +1,25 @@
 {
   "products": [
     {
-      "id": 28,
-      "title": "3D Embellishment Art Lamp",
-      "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
-      "price": 20,
-      "discountPercentage": 16.49,
-      "rating": 4.82,
-      "stock": 54,
-      "brand": "LED Lights",
-      "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/28/1.jpg",
-        "https://cdn.dummyjson.com/product-images/28/2.jpg",
-        "https://cdn.dummyjson.com/product-images/28/3.png",
-        "https://cdn.dummyjson.com/product-images/28/4.jpg",
-        "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg"
-      ]
+      "title": "Bộ quần áo thể thao nam Fasvin AT23580",
+      "price": "379.000",
+      "description": "Bộ thể thao nam cộc tay Fasvin được chế tạo tại nhà máy của FASVIN với quy trình thu hóa nghiệm ngặt. Các sản phẩm đều được những người thợ lâu năm trong nghề làm ra một cách cẩn thận và chắc chắn.",
+      "thumbnail": "https://salt.tikicdn.com/cache/750x750/ts/product/a6/c0/98/6d2f83a5883aedad8af2ce9efc73f090.jpg.webp",
+      "id": 1
     },
     {
-      "title": "iphome 14",
-      "price": "122",
-      "description": "qwwww",
-      "id": 33
+      "title": "Bộ quần áo thể thao nam FASVIN AT21455",
+      "price": "418.000",
+      "description": "Bộ thể thao nam cộc tay Fasvin được chế tạo tại nhà máy của FASVIN với quy trình thu hóa nghiệm ngặt. Các sản phẩm đều được những người thợ lâu năm trong nghề làm ra một cách cẩn thận và chắc chắn",
+      "thumbnail": "https://salt.tikicdn.com/cache/750x750/ts/product/92/2c/96/c463bd67968f667d3db350317ebfc12f.jpg.webp",
+      "id": 2
+    },
+    {
+      "title": "Bộ quần áo thể thao nam FASVIN AB23570.HN ",
+      "price": "429.000",
+      "description": "Bộ thể thao nam cộc tay Fasvin được chế tạo tại nhà máy của FASVIN với quy trình thu hóa nghiệm ngặt. Các sản phẩm đều được những người thợ lâu năm trong nghề làm ra một cách cẩn thận và chắc chắn.",
+      "thumbnail": "https://salt.tikicdn.com/cache/750x750/ts/product/d7/4e/5e/0063467c52c031c3f743544eb6b1af47.jpg.webp",
+      "id": 3
     }
   ],
   "users": [

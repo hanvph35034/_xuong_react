@@ -97,7 +97,7 @@ const ProductForm = () => {
         <div className="mb-2">
           <label
             htmlFor="name"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
+            className="block text-gray-700 font-bold mb-2"
           >
             Tên sản phẩm
           </label>
@@ -111,7 +111,7 @@ const ProductForm = () => {
                 message: "Giá sản phẩm lớn hơn 6 kí tự",
               },
             })}
-            className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             placeholder="Tên sản phẩm"
           />
           <p className="mt-1 text-sm text-red-600 dark:text-red-500">
@@ -122,7 +122,7 @@ const ProductForm = () => {
         <div className="mb-2">
           <label
             htmlFor="price"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
+            className="block text-gray-700 font-bold mb-2"
           >
             Giá sản phẩm
           </label>
@@ -136,7 +136,7 @@ const ProductForm = () => {
                 message: "Giá sản phẩm phải lớn hơn 0",
               },
             })}
-            className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             placeholder="Giá sản phẩm"
           />
           <p className="mt-1 text-sm text-red-600 dark:text-red-500">
@@ -146,7 +146,7 @@ const ProductForm = () => {
         <div className="mb-2">
           <label
             htmlFor="repeat-des"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
+            className="block text-gray-700 font-bold mb-2"
           >
             Mô tả sản phẩm
           </label>
@@ -155,7 +155,7 @@ const ProductForm = () => {
             {...register("description", {
               required: "Vui lòng nhập mô tả của sản phẩm",
             })}
-            className="shadow-sm min-h-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             placeholder="Mô tả sản phẩm"
           />
           <p className="mt-1 text-sm text-red-600 dark:text-red-500">
@@ -163,11 +163,11 @@ const ProductForm = () => {
             {errors?.description?.message}
           </p>
           <div className="mb-3">
-            <label htmlFor="thumbnailOption" className="form-label">
+            <label htmlFor="thumbnailOption" className="block text-gray-700 font-bold mb-2">
               Tùy chọn upload ảnh
             </label>
             <select
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="thumbnailOption"
               value={thumbnailOption}
               onChange={(e) => setThumbnailOption(e.target.value)}
@@ -178,13 +178,13 @@ const ProductForm = () => {
             </select>
           </div>
           <div className="mb-3">
-            <label htmlFor="thumbnail" className="form-label">
+            <label htmlFor="thumbnail" className="block text-gray-700 font-bold mb-2">
               Ảnh
             </label>
             {thumbnailOption === "link" && (
               <input
                 type="text"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="thumbnail"
                 {...register("thumbnail")}
               />
@@ -192,7 +192,7 @@ const ProductForm = () => {
             {thumbnailOption === "upload" && (
               <input
                 type="file"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="thumbnail"
                 {...register("thumbnail", { required: true })}
               />
