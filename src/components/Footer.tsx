@@ -7,22 +7,21 @@ const Footer = () => {
             <p className="text-xs text-gray-400 md:text-sm">
               Msv PH35034
             </p>
+            <p className="text-xs text-gray-400 md:text-sm">
+            tiến độ dự án hoàn thành được 84%
+            </p>
           </div>
           <div className="w-full md:w-1/2 md:text-center md:mb-0 mb-8">
             <ul className="list-reset flex justify-center flex-wrap text-xs md:text-sm gap-3">
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white">
-                  Contact
-                </a>
-              </li>
+            
               <li className="mx-4">
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Privacy Policy
+                  email: 123d@gmail.com role : admin
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Terms of Use
+                  passwrod : 123456
                 </a>
               </li>
             </ul>

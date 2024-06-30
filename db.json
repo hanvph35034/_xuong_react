@@ -28,6 +28,12 @@
       "password": "$2a$10$KPV6yZw3kFP9WnxsdAcGh.SZCq0B5wHWJaUeHZTGlth.rC61NLC4y",
       "confirmPass": "123456",
       "id": 1
+    },
+    {
+      "email": "123@gmail.com",
+      "password": "$2a$10$Yk3/bKHp/oEa/.6qp/5iPe7/30rWIFK/RILf81ArQxBePgb7DApmi",
+      "confirmPass": "123456",
+      "id": 2
     }
   ]
 }

@@ -35,7 +35,7 @@ const LayoutAdmin = () => {
           <ul className="space-y-2 font-medium">
             <li>
               <Link
-                to={""}
+                to={"/admin"}
                 className="flex no-underline items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="ms-3">Dashboard</span>
@@ -46,7 +46,7 @@ const LayoutAdmin = () => {
                 to={""}
                 className="flex no-underline items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
-                <span className="flex-1 ms-3 whitespace-nowrap">Kanban</span>
+                <span className="flex-1 ms-3 whitespace-nowrap">User</span>
               </Link>
             </li>
             <li>
@@ -54,23 +54,7 @@ const LayoutAdmin = () => {
                 to={""}
                 className="flex no-underline items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
-                <span className="flex-1 ms-3 whitespace-nowrap">Inbox</span>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={""}
-                className="flex no-underline items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-              >
-                <span className="flex-1 ms-3 whitespace-nowrap">Users</span>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/admin"}
-                className="flex no-underline items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-              >
-                <span className="flex-1 ms-3 whitespace-nowrap">Products</span>
+                <span className="flex-1 ms-3 whitespace-nowrap">messger</span>
               </Link>
             </li>
             <li>
